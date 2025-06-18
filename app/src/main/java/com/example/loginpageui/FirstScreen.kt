@@ -15,6 +15,7 @@ import androidx.navigation.NavController
 
 @Composable
 fun FirstScreen(navController: NavController) {
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -44,7 +45,8 @@ fun FirstScreen(navController: NavController) {
         )
 
         Button(
-            onClick = { navController.navigate("login") },
+            onClick = {
+                navController.navigate("login") },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 16.dp)

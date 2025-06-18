@@ -98,9 +98,7 @@ fun LoginScreen() {
             )
 
             // Email Field
-            OutlinedTextField(
-                value = email,
-                onValueChange = {
+            OutlinedTextField(value = email, onValueChange = {
                     email = it
                     emailError = null
                 },
@@ -158,7 +156,7 @@ fun LoginScreen() {
                 text = "Forgot Password?",
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier
-                    .clickable { /* TODO */ }
+                    .clickable {   Toast.makeText(context, "Forgot Password", Toast.LENGTH_SHORT).show() }
                     .padding(top = 4.dp)
             )
 
@@ -167,7 +165,7 @@ fun LoginScreen() {
                 text = "Don't have an account? Sign Up",
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier
-                    .clickable { /* TODO */ }
+                    .clickable {    Toast.makeText(context, "Sign Up", Toast.LENGTH_SHORT).show() }
                     .padding(top = 4.dp)
             )
         }
