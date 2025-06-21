@@ -89,4 +89,3 @@ This project is open-source under the MIT License.
 ## 🙋‍♂️ Author
 Abhishek Roushan
 👨‍💻 GitHub: github.com/Abhi95081
-🔗 LinkedIn: linkedin.com/in/Abhishek Roushan
